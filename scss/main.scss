@@ -1,0 +1,52 @@
+
+@import "variables";
+
+  @mixin botonPrim {
+    color: black;
+    display: flex;
+    align-self: center;
+    margin-top: 10px; 
+  } 
+
+#boton {
+  @include botonPrim() }
+
+body {
+  font-family: $fuente_titulos;
+  margin: 2px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.page-hero{
+  margin-top: 4rem;
+  height: 70vh;
+  font-size: 2rem;
+}
+.hero-title{
+  color:$color_titulos;
+  
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 500px;
+
+     img{
+    width: 300px;
+    margin-top: 2rem;
+    height: 300px;
+        }
+  }
+
+.servicios-title{
+  display: flex;
+  justify-content: center;
+  color:$color_titulos;
+}
+

@@ -1,0 +1,38 @@
+#boton {
+  color: black;
+  display: flex;
+  align-self: center;
+  margin-top: 10px; }
+
+body {
+  font-family: "Montserrat" sans-serif;
+  margin: 2px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.page-hero {
+  margin-top: 4rem;
+  height: 70vh;
+  font-size: 2rem; }
+
+.hero-title {
+  color: #3d29f1; }
+
+.servicios {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 500px; }
+  .servicios img {
+    width: 300px;
+    margin-top: 2rem;
+    height: 300px; }
+
+.servicios-title {
+  display: flex;
+  justify-content: center;
+  color: #3d29f1; }
