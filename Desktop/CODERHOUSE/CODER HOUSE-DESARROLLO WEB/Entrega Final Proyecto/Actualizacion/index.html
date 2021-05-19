@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="es"/>
+        <meta name="distribution" content="global"/>
+        <!--Mobile first! -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Etiquetas para SEO -->
+        <title> Roman Luis -Web developer- </title>
+        <meta name="description" content="Desarrollo de paginas web con diferentes tipos de tecnologias">
+        <meta name="keywords" content="HTML, CSS, JavaScript,web development,desarrollo web ">
+        <meta name="author" content="Roman Luis">
+        <!--Tipografia Google Fonts--> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+         <!--Link a librerias de animaciones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!--Link a librerias de iconos de Bootstrap! -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> 
+        <!--Favicon -->
+        <link href="images/logo.png" rel="icon">
+        <!--Link a hoja estilos propia -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+<body>
+       <!--Barra de navegación--> 
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-secondary shadow" >
+            <div class="container">
+              <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" justify-content-end>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollto" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre_mi">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Contáctame</a>
+                    <!-- Link para el modal -->
+
+                    <!-- Modal con formulario de contacto -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contáctame</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Nombre/Empresa:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nombre/Empresa">
+                              </div>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Direccion de correo:</label>
+                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="message"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" value="submit" class="btn btn-primary">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+<!--Hero de la pagina -->        
+<section class="page-hero">
+  <div class="container" pt-3>
+    <div class="d-flex align-items-center">
+        <div class="col-12 col-md-6" >
+          <h1 class="hero-title">¿DESEAS UN SITIO WEB PARA DESTACAR?</h1>
+          <h2 class="animate__animated animate__fadeInDownBig">Entonces no dudes en contáctarme,
+          estoy a un click de distancia.</h2>
+          
+          <a class="btn btn-primary mx-auto d-block" href="https://github.com/romanLuis-coder/Roman-Luis-web_dev" role="button" target="blank"><span class="bi bi-github"></span> ¡Mira mi repo!</a>
+        </div>
+        <div class="col-md-6">
+          <img src="images/rluiswebdev.png" class="img-fluid rounded" alt="desarrollo web">
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--Seccion de servicios -->
+<section class="servicios_area" id="servicios">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="servicios_titulo">
+          
+          <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="800" data-aos-easing="fade">
+            <h2 >SERVICIOS </h2>
+          </div>
+          
+          <p>
+            Hoy no tener un sitio web equivale a no existir, <br> te ayudo a idear soluciones para abarcar el mercado digital y guiarte a tus metas de negocio.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row feature_inner">
+      <div class="col-lg-3 col-md-6 rounded">
+        <div class="servicios_item">
+          <img src="images/s1-1.png" alt="Diseño cms">
+          <h4>DISEÑO CON CMS</h4>
+          <p>Cada cliente es único por eso me enfoco en brindar soluciones personalizadas
+           con Wordpress, Drupal y Gatsby. ¡Obtenga resultados en menor tiempo y al mejor valor!
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="servicios_item">
+          <img src="images/s2-2.png" alt="Diseño web">
+          <h4>DISEÑO WEB</h4>
+          <p>Experto en una amplia gama de tecnologías disponibles para hacer sitios adaptados a sus necesidades, 
+            en: HTML, CSS, SASS, Bootstrap y además siempre responsive.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="servicios_item">
+          <img src="images/s3-3.png" alt="MARKETING">
+          <h4>MARKETING DIGITAL</h4>
+          <p>Me encargo de que tu sitio sea visible en la red y pueda empezar a competir en la industria digital:
+            redes sociales, copywriting, community management, analytics y más.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="servicios_item">
+          <img src="images/s4-4.png" alt="SEO">
+          <h4>OPTIMIZACION SEO</h4>
+          <p>¡Gane más! Me encargo de hacer los cambios necesarios para que aparezca primero en las búsquedas de su nicho:
+            SEO y SEM que maximizarán sus resultados de venta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Seccion portfolio-->
+<section class="portfolio_area" id="portfolio">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="portfolio_titulo">
+          <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="700" data-aos-easing="ease-in-out">
+            <h2 >PORTFOLIO </h2>
+          </div>
+          <p>
+          Aquí puedes ver mis trabajos anteriores, <br> la confianza y satisfacción de mis clientes es lo más importante y mi mejor carta de presentación.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row feature_inner">
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio_item">
+          <a href="http://arciservice.net/" target="blank">
+          <img src="images/arciservice.jpeg" class="img-fluid rounded" alt="Archivos">
+          </a>
+          <h4>Arciservice.net</h4>
+          <p>Página web construida con Wordpress,para empresa de servicios profesionales.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio_item">
+          <a href="https://colanjuridico.com/" target="blank">
+            <img src="images/colan.jpeg" class="img-fluid rounded" alt="Abogado">
+          </a>
+          <h4>Marcos Colan</h4>
+          <p>Sitio web personal de consultoría profesional construida en la plataforma One.com.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio_item">
+          <a href="http://tamarqmakeup.epizy.com/" target="blank">
+            <img src="images/tamarq.jpeg" class="img-fluid rounded" alt="Make up">
+          </a>
+          <h4>TamarQ Makeup</h4>
+          <p>Página web construida con HTML,CSS y SASS para artista de maquillaje profesional. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Seccion sobre mi-->
+<section class="sobre_mi section-gap-bottom" id="sobre_mi">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="portfolio_titulo">
+          <div data-aos="fade-left" data-aos-offset="200" data-aos-duration="700" data-aos-easing="ease-in-out">
+            <h2 >SOBRE MÍ </h2>
+          </div>
+          <p class="lead">
+            "Soy Roman y quiero ayudarte a hacer crecer tu negocio, <br> a través de un sitio web hecho a la medida de tus necesidades."
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="offset-lg-1 col-md-4">
+        <img src="images/roman.png" class="img-fluid rounded" alt="desarrollo web">
+      </div>
+      <div class="col-md-6">
+        
+      <p>
+          ¡Hola!, Me llamo Roman Luis y soy un desarrolador web en constante actualización,
+          soy un entusiasta de la tecnologia desde muy corta edad.
+      </p>
+      <p>
+          Soy ingeniero electricista de formación pero computista de corazón,
+          apasionado y curioso, estoy interesado en conocer diversas tecnologias para perfeccionar
+          la construcción de sistemas complejos y sitios web con las caracteristicas más actuales
+          del mercado. 
+      </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Link a scripts de Js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+ <br>
+ <br>
+ <br>
+ <br>
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="piePagina">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #D1E8F6">
+      © 2021 Copyright:
+    <!-- Volver al top de la página -->
+      <a class="text-dark" href="#">Hecho con 	&#9749 y &#128153  por Roman Luis</a>
+      <div class="container justify-content-center">
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="https://www.facebook.com/" target="blank">
+              <img src="images/facebook.png" alt="Facebook">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://www.twitter.com/" target="blank">
+              <img src="images/twitter.png" alt="twitter">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="https://www.reddit.com/" target="blank">
+              <img src="images/reddit.png" alt="reddit">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
+
+
+

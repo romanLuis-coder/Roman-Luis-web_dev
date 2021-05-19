@@ -1,0 +1,15 @@
+
+/*Estilos de la seccion Portfolio- copia los estilos de servicios*/
+.portfolio_area {
+    @extend .servicios_area };
+  
+  .portfolio_item {
+    @extend .servicios_item };
+
+  .portfolio_titulo {
+    @extend .servicios_titulo };
+
+  #portTitle{
+            color:$color_titulos;
+          }
+          

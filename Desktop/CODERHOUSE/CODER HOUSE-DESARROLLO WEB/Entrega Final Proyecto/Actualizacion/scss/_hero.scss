@@ -1,0 +1,42 @@
+/*Estilos del hero*/
+
+@media (max-width: 576px) {
+.page-hero{
+    img{
+        display:none;}
+        }
+    h1,h2{
+        text-align: center;
+    } 
+.btn.btn-primary.mx-auto.d-block{
+
+    margin-bottom: 20px;
+    }   
+}
+
+@media (max-width: 768px){
+    .btn.btn-primary.mx-auto.d-block{
+
+        margin-bottom: 20px;
+        }   
+    }    
+
+
+
+.page-hero{
+    width: 100%; 
+    height: fit-content;
+    font-size: 2rem;
+    background: url('images/hero-bg.png') top center no-repeat;
+    background-size: cover;
+    img{
+      filter: drop-shadow(2px 4px 8px);}  
+        }
+    h1{
+      font-weight: 900;
+    }
+
+.hero-title{
+    color:$color_titulos;
+           }
+

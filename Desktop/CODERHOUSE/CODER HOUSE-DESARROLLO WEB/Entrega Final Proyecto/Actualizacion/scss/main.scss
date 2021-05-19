@@ -1,0 +1,44 @@
+
+/*Variables propias y de Boostrap para modificar estilos*/
+$primary:#417A9D;
+$secondary:#D1E8F6;
+$carousel-control-opacity:0.1; 
+$carousel-control-hover-opacity:0.3;
+$carousel-caption-color: black;
+$carousel-control-icon-width:30px;
+$carousel-control-color:#102B4D;
+$color_titulos: #417A9D; 
+$fuente_titulos:'Ubuntu', sans-serif;
+
+/*Importar los diferentes archivos SCSS */
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "servicios";
+@import "portfolio";
+@import "footer";
+@import "hero"; 
+@import "nav";
+@import "blog";
+
+
+/*Estilos globales */
+
+html {
+  box-sizing: border-box; 
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h1,h2,h3,h4,h5{
+
+  font-family: $fuente_titulos;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+
+

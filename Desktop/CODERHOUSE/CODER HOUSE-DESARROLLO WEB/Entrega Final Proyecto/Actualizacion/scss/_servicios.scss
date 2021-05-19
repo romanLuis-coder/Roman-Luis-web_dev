@@ -1,0 +1,61 @@
+
+/*Estilos de la seccion servicios*/
+.servicios_area {
+    padding-bottom: 100px; }
+    @media (max-width: 1199px) {
+      .servicios_area {
+        padding-bottom: 40px; } }
+  
+ .servicios_item {
+    padding: 45px 25px;
+    text-align: center;
+    background: #f9f9fd;
+    cursor: pointer;
+    margin-bottom: 30px;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+  .servicios_item {
+        img {
+      margin-bottom: 35px; }
+        h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+        p {
+      margin-bottom: 0px;
+      font-weight: 350;
+      
+     }
+        &:hover {
+      box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+      background:#96CCEE;}
+    
+    }
+.servicios_titulo {
+      padding-top: 0px;
+      margin-top: 0px;
+      text-align: center;
+      margin-bottom: 60px;
+      
+      h2{
+        font-size: 35px;
+        font-weight: 700;
+        color:$color_titulos;
+      }
+      p{
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+      @media (max-width: 1199px) {
+        .servicios_titulo {
+          margin-bottom: 50px; } }
+  
+@media (min-width: 576px) {
+.servicios_titulo{
+  padding-top: 25px;}
+
+}
+
+
